@@ -95,7 +95,7 @@ export default function Game() {
     </div>
   );
 }
-
+ 
 
 function calculateWinner(squares) {
   const lines = [
@@ -115,4 +115,4 @@ function calculateWinner(squares) {
     }
   }
   return null;
-}
+} 

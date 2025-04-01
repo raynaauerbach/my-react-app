@@ -1,4 +1,7 @@
 function  Square({ value }) {
+  function handleClick() {
+    console.log('clicked!');
+  }
   return <button className="square">{value}</button>;
 }
 
@@ -18,7 +21,7 @@ export default function Board() {
         <Square value="6" />
       </div>
       <div className="board-row">
-       <Square value="7" />
+      <Square value="7" />
         <Square value="8" />
         <Square value="9" />
       </div>

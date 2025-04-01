@@ -5,6 +5,7 @@ function  Square() {
   const [value, setValue] = useState(null);
 
   function handleClick() {
+    
     console.log('clicked!');
   }
   return (
@@ -26,12 +27,12 @@ export default function Board() {
         
       </div>
       <div className="board-row">
-      <Square />
+       <Square />
         <Square />
         <Square />
       </div>
       <div className="board-row">
-       <Square />
+        <Square />
         <Square />
         <Square />
       </div>
